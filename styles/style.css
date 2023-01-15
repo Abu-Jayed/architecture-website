@@ -43,6 +43,7 @@ my header section style start here
 	margin-bottom: 20px;
 }
 .header-sect-txt-mes button{
+	font-size: 20px;
 	width: 180px;
 	height: 64px;
 	color: white;
@@ -291,4 +292,34 @@ This area is for bonus number
 }
 .enjoy{
 	color: lightcoral;
+}
+
+.header-sect-txt-mes button:hover{
+	background-color: wheat;
+	color: #FF900E;
+	font-size: 22px;
+	font-weight: 800;
+	border: 2px solid salmon;
+	transform: skew(1deg, 0deg);
+}
+
+.feature-intro-btn:hover{
+	background-color: wheat;
+	color: #FF900E;
+	font-size: 22px;
+	font-weight: 800;
+	border: 2px solid salmon;
+	transform: skew(1deg, 0deg);
+}
+
+.sub-btn:hover{
+	background-color: lightpink;
+	color: #FF900E;
+	font-size: 22px;
+	font-weight: 800;
+	border: 2px solid salmon;
+	transform: skew(1deg, 0deg);
+}
+.form{
+	padding-left: 62px;
 }
